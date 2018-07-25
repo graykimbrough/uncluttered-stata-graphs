@@ -1,0 +1,60 @@
+// Uncluttered graph scheme
+
+#include s2color
+
+sequence 1210
+label "Uncluttered"
+
+// Non-color settings
+margin        twoway          vsmall
+linewidth     p               medthick
+symbolsize    p               vsmall
+linewidth     pbar            vvvthin
+anglestyle    vertical_tick   horizontal
+
+// Remove grid and set all background colors to white
+color grid                white
+color major_grid          white
+color background          white
+color plotregion          white
+color plotregion_line     white
+color matrix_plotregion   white
+
+// Set most other elements to black
+color matplotregion_line  black
+color foreground          black
+color symbol              black
+color text                black
+color body                black
+color small_body          black
+color heading             black
+color subheading          black
+color axis_title          black
+color matrix_label        black
+color label               black
+color key_label           black
+color tick_label          black
+color tick_biglabel       black
+color matrix_marklbl      black
+color sts_risk_label      black
+color sts_risk_title      black
+color text_option         black
+color text_option_line    black
+color filled_text         black
+color axisline            black
+color tick                black
+color minortick           black
+color refmarkline         black
+color dotmarkline         black
+color dots                black
+color matplotregion_line  black
+color legend_line         black
+color clegend_line        black
+color zyx2                black
+color sunflowerdf         black
+
+// Bar and line color choices
+color p1      "24 105 109"
+color p2      "219 112 41"
+color p3      "73 70 68"
+color p4 maroon
