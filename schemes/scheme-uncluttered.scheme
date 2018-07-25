@@ -1,16 +1,32 @@
 // Uncluttered graph scheme
+// Author: Gray Kimbrough
+// gray.kimbrough@gmail.com
 
+// Based off of s2color scheme, which hopefully will not change
 #include s2color
+// Sequence number to put it above Stata schemes
+sequence 1110
+// Label to identify this scheme
+label "Uncluttered graphs"
 
-sequence 1210
-label "Uncluttered"
+// Bar and line color choices
+color p1      "24 105 109"
+color p2      "219 112 41"
+color p3      "73 70 68"
+color p4 maroon
 
 // Non-color settings
+// Most significantly:
+//  * a very small but non-zero margin within the axes
+//    (remove this padding by replacing 'vsmall' with 'zero',
+//        or make larger with other sizes)
+//  * thicker lines
+//  * horizontal labeling of vertical axis
 margin        twoway          vsmall
 linewidth     p               medthick
+anglestyle    vertical_tick   horizontal
 symbolsize    p               vsmall
 linewidth     pbar            vvvthin
-anglestyle    vertical_tick   horizontal
 
 // Remove grid and set all background colors to white
 color grid                white
@@ -52,9 +68,3 @@ color legend_line         black
 color clegend_line        black
 color zyx2                black
 color sunflowerdf         black
-
-// Bar and line color choices
-color p1      "24 105 109"
-color p2      "219 112 41"
-color p3      "73 70 68"
-color p4 maroon
