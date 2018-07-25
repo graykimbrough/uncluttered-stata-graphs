@@ -13,7 +13,7 @@ label "Uncluttered graphs"
 color p1      "24 105 109"
 color p2      "219 112 41"
 color p3      "73 70 68"
-color p4 maroon
+color p4      maroon
 
 // Non-color settings
 // Most significantly:
