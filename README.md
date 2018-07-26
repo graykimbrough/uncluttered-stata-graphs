@@ -1,5 +1,7 @@
 # Uncluttered Stata Graphs
 
+These schemes are intended to allow users to produce uncluttered basic graphs (particularly line and bar graphs) in Stata.
+
 # Files provided
 
 The [schemes](https://github.com/graykimbrough/uncluttered-stata-graphs/tree/master/schemes) directory contains two schemes, a basic uncluttered scheme (`scheme-uncluttered.scheme`), and one that varies line patterns for better reproduction in black and white (`scheme-uncluttered_publication.scheme`). The publication scheme is based on the `uncluttered` scheme, which must be present for it to work.
@@ -32,7 +34,13 @@ To the best of my knowledge, the only way to set the font used for graphs is thr
 
 ## Legends and axis titles
 
-There does not appear to be a Stata scheme setting to turn off the display of either a legend or axis titles. The example program shows how to accomplish this with options to the `graph twoway` command.
+Legends are turned off by default, though they can be restored using the `legend(on)` option to the `graph twoway` command. 
+
+There does not appear to be a Stata scheme setting to turn off the display of only vertical axis titles. The example program accomplishes this using the `ytitle("")` option to the `graph twoway` command.
+
+# Limitations
+
+Users attempting to build more complicated graphs or different types of graphs may find these schemes limited. Extensions to cover additional graph types are welcome.
 
 # Resources
 
