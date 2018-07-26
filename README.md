@@ -1,8 +1,8 @@
 # Files provided
 
-The [schemes](./schemes/) directory contains two schemes, a basic uncluttered scheme (`scheme-uncluttered.scheme`), and one that varies line patterns for better reproduction in black and white (`scheme-uncluttered_publication.scheme`). The publication scheme is based on the `uncluttered` scheme, which must be present for it to work.
+The [schemes](https://github.com/graykimbrough/uncluttered-stata-graphs/tree/master/schemes) directory contains two schemes, a basic uncluttered scheme (`scheme-uncluttered.scheme`), and one that varies line patterns for better reproduction in black and white (`scheme-uncluttered_publication.scheme`). The publication scheme is based on the `uncluttered` scheme, which must be present for it to work.
 
-The [examples](./examples) directory contains an example and its accompanying data. When the `uncluttered` scheme is in the correct directory, this program will produce a graph with labels to the right of each line.
+The [examples](https://github.com/graykimbrough/uncluttered-stata-graphs/tree/master/examples) directory contains an example and its accompanying data. When the `uncluttered` scheme is in the correct directory, this program will produce a graph with labels to the right of each line.
 
 # Basic setup
 
