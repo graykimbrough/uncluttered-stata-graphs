@@ -1,3 +1,5 @@
+# Uncluttered Stata Graphs
+
 # Files provided
 
 The [schemes](https://github.com/graykimbrough/uncluttered-stata-graphs/tree/master/schemes) directory contains two schemes, a basic uncluttered scheme (`scheme-uncluttered.scheme`), and one that varies line patterns for better reproduction in black and white (`scheme-uncluttered_publication.scheme`). The publication scheme is based on the `uncluttered` scheme, which must be present for it to work.
