@@ -22,11 +22,14 @@ color p4      maroon
 //        or make larger with other sizes)
 //  * thicker lines
 //  * horizontal labeling of vertical axis
+//  * Do not display the legend (label the lines or bars instead!)
 margin        twoway          vsmall
 linewidth     p               medthick
 anglestyle    vertical_tick   horizontal
+yesno         legend_force_nodraw yes
 symbolsize    p               vsmall
 linewidth     pbar            vvvthin
+
 
 // Remove grid and set all background colors to white
 color grid                white

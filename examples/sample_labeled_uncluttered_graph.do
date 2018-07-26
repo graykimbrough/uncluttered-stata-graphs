@@ -43,5 +43,4 @@ graph twoway (connected pct_lfp year if sex==1, `label_opts')
     subtitle("Percentage of 21-30 year olds in the labor force",
       justification(left) margin(b+1 t-1) bexpand)
     note("Excludes armed forces. Source: 1968-2017 ASEC samples from IPUMS-CPS (cps.ipums.org), @graykimbrough",
-      margin(l-8 t+2 b-2))
-    legend(off);
+      margin(l-8 t+2 b-2));
