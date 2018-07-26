@@ -26,7 +26,7 @@ Jon Schwabish provides a [selection of resources](https://policyviz.com/better-p
 
 ## Graph font
 
-To the best of my knowledge, the only way to set the font used for graphs is through Stata Preferences. In Mac OS X, the Font setting is found under Preferences | Graph preferences | Window. This setting appears to take effect permanently.
+To the best of my knowledge, the only way to set the font used for graphs is through Stata Preferences. In Mac OS X, the Font setting is found under Preferences -> Graph preferences -> Window. This setting appears to take effect permanently.
 
 ## Legends and axis titles
 
