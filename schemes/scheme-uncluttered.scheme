@@ -17,13 +17,12 @@ color p4      maroon
 
 // Non-color settings
 // Most significantly:
-//  * a very small but non-zero margin within the axes
-//    (remove this padding by replacing 'vsmall' with 'zero',
-//        or make larger with other sizes)
+//  * Zero margin within the axes
+//    (Add padding by replacing 'zero' with another size)
 //  * thicker lines
 //  * horizontal labeling of vertical axis
 //  * Do not display the legend (label the lines or bars instead!)
-margin        twoway          vsmall
+margin        twoway          zero
 linewidth     p               medthick
 anglestyle    vertical_tick   horizontal
 yesno         legend_force_nodraw yes
